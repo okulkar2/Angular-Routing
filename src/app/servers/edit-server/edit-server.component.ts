@@ -13,7 +13,7 @@ export class EditServerComponent implements OnInit {
   serverStatus = '';
 
   constructor(private serversService: ServersService,
-              private route: ActivatedRoute) { }
+              private route: ActivatedRoute) {}
 
   ngOnInit() {
     console.log(this.route.snapshot.queryParams);
